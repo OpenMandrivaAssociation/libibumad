@@ -44,7 +44,3 @@ export CXX=g++
 
 %install
 %make_install
-
-# remove unpackaged files from the buildroot
-find %{buildroot} -name '*.la' -delete \;
-
